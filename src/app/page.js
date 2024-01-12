@@ -10,7 +10,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
+    <div className="bg-white p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
       {blog && blog.map((val, index) => <Card data={val} key={index} />)}
     </div>
   );
@@ -19,7 +19,7 @@ export default function Home() {
 function Card({ data }) {
   return (
     <>
-      <div class="rounded overflow-hidden shadow-lg">
+      <div class="rounded overflow-hidden shadow-lg bg-gray-400">
         <img
           class="w-full"
           src={data.img}
