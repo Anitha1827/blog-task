@@ -1,4 +1,4 @@
-export default function Header() {
+export default function Detailheader() {
   return (
     <>
       <nav style={{ backgroundColor: "#332941", height: "250px" }}>
@@ -10,7 +10,10 @@ export default function Header() {
                   <h1 style={{ marginTop: "33%" }}>
                     <b style={{ marginLeft: "16px", fontSize: "30px" }}>Blog</b>
                   </h1>
-                  <p>Discover the World of Gypsum's Architecture Genius!</p>
+                  <p>
+                    Gypsum Unveiled: Navigating Ancient Origins to Architectural
+                    Mastery
+                  </p>
                 </div>
               </div>
             </div>
